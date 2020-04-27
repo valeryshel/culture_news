@@ -1,0 +1,272 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+body {
+
+font-family: 'Roboto', sans-serif;
+
+}
+
+.wrapper {
+	max-width: 1170px;
+	margin: 0px auto;
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+li {
+	list-style: none;
+	text-decoration: none;
+}
+
+p {
+	font-size: 14px;
+}
+
+.title {
+	font-family: 'Playfair Display', serif;
+	font-size: 35px;
+	text-align: center;
+	margin: 62px auto 46px auto;
+	letter-spacing: 1.2px;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px auto 47px auto;
+	padding: 0;
+}
+
+.nav li {
+	font-size: 15px;
+	letter-spacing: 2px;
+	color: #000000;
+	text-decoration: none;
+	list-style: none;
+}
+
+.banner {
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: #fff;
+	min-height: 464px;
+	
+}
+
+.banner-content {
+	
+	max-width: 760px;
+	margin:0 auto;
+	text-align: center;
+}
+
+.round-icon {
+ padding-top: 46px;
+}
+
+h2 {
+	font-size: 72px;
+	font-weight: normal;
+	margin: 27px auto;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.description {
+	max-width: 460px;
+	font-size: 14px;
+	margin: 131px auto 0 auto;
+	line-height: 23px;
+}
+
+.news-page {
+	margin-bottom: 44px;
+}
+
+h3 {
+	font-size: 17px;
+	font-weight: bold;
+	margin: 0px auto;
+	text-align: center;
+	padding: 44px 0px 5px 0px;
+	letter-spacing: 2.2px;
+}
+
+.news-menu {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-basis: 370px;
+	padding: 0;
+	margin-bottom: 44px;
+}
+
+.news-menu li 
+{
+	flex-basis: 370px;
+	max-width: 370px;
+}
+
+.news-menu li p {
+	font-size: 14px;
+	line-height: 150%;
+	margin: 9px auto;
+}
+
+h4 {
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 23px;
+	color: #000;
+	margin: 15px auto 5px auto;
+}
+
+h4:hover {
+	color: #FF7931;
+}
+
+.form {
+	height: 556px;
+	background-color: #F7F7F7; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.form-circle {
+	background: linear-gradient(to bottom, #ffffff,#ffffff 95%, transparent 95%, transparent);
+	height: 707px;
+	width: 707px;
+	border-radius: 50%;
+	margin: -75px auto;
+}
+
+.h3 {
+	margin: 0 auto;
+	padding-top: 108px;
+	letter-spacing: 2px;
+}
+
+.form-menu {
+	display: flex;
+	flex-direction: column;
+	max-width: 370px;
+	flex-basis: 370px;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	padding: 0;
+	margin: 15px auto;
+}
+
+.form-menu li {
+	margin: 0px auto;
+}
+
+.form-menu p {
+	line-height: 23px;
+	margin: 6px auto 30px auto;
+}
+
+.btn {
+	margin: 0 auto;
+	width: 170px;
+	height: 47px;
+	background-color: #FF7931;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.btn-content {
+	color: white;
+	font-size: 12px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 5px 0 0 26px;
+}
+
+.btn img {
+	padding: 3px 23px 0 0;
+}
+
+.footer {
+	background-color: #575757;
+	height: 295px;
+}
+
+.footer-title {
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 28px;
+	color: white;
+	text-align: center;
+	margin: 50px auto 15px auto;
+	padding-top: 27px;
+	letter-spacing: 1px;
+}
+
+.footer-navigation {
+	margin: 0 auto;
+}
+
+.footer-nav {
+	border-bottom: 1px solid #fff;
+	margin: 32px auto 42px auto;
+	padding-bottom: 45px;
+}
+
+.footer-nav li a {
+	color: white;
+}
+
+.social-menu {
+	padding: 0;
+	max-width: 170px;
+	margin: 0 auto;
+}
+
+
+.social-list {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
+
+.social-list li {
+	width: 47px;
+	height: 47px;
+	background-color: #ffffff;
+}
+
+.footer-social-icon:first-child {
+	background-image: url(../img/icon_insta.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.footer-social-icon:nth-child(2) {
+	background-image: url(../img/facebook_icon.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.footer-social-icon:last-child {
+	background-image: url(../img/twitter_icon.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
